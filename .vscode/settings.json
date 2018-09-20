@@ -18,7 +18,11 @@
     "vector": "cpp",
     "functional": "cpp",
     "iostream": "cpp",
-    "*.ipp": "cpp"
+    "*.ipp": "cpp",
+    "__locale": "cpp",
+    "ostream": "cpp",
+    "fstream": "cpp",
+    "locale": "cpp"
   },
   "C_Cpp.dimInactiveRegions": true,
   "C_Cpp.errorSquiggles": "Disabled"

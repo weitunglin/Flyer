@@ -8,7 +8,7 @@ using namespace std;
 Capture::Capture(std::string path) {
   Capture::isstop = false;
   Capture::camera_path = path;
-  Capture::cap = cv::VideoCapture(0);
+  Capture::cap = cv::VideoCapture(path);
 }
 
 void Capture::start() {
